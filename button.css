@@ -5,6 +5,19 @@
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    background-color: red;
+}
+
+#button:hover {
+    background-color: orange;
+}
+
+#button.eaten {
+    background-color: blue;
+}
+
+#button.eaten:hover {
+    background-color: purple;
 }
 
 p {
@@ -14,20 +27,4 @@ p {
     font-size: 20px;*/
     font: 20px/80px Helvetica, sans-serif;
     text-align: center;
-}
-
-.red {
-    background-color: red;
-}
-
-.red:hover {
-    background-color: orange;
-}
-
-.blue {
-    background-color: blue;
-}
-
-.blue:hover {
-    background-color: purple;
 }
